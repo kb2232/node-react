@@ -1,0 +1,32 @@
+TOOLS USED
+1. express server
+2. mongodb + passportJS (authentication)
+3. Stripe (Handling payments) + mongodb
+4. React + redux (front end)
+5. React + redux + redux form (front end - collecting information)
+6. email provider
+7. email provider + express + mongo
+
+NODE:
+is used to run JS code outside the browser. Traditionally, JS code was executed inside the browser.
+
+EXRPESS:
+is a library that runs in the Node runtime - it is consider a node framework. Everything in express, in theory, can be written with pure node. It makes our life easier.
+
+1. app.js 
+this is the startup file - root file
+modules: 
+  - express, 
+
+HEROKU DEPLOYEMENT
+- it is good to deploye early to ensure your app is working.
+
+1. heroku requires a few things needed inorder to be deployed.
+    1. dynamic port binding - heroku tells us which door number information is coming from. So we need to prep our root file dynamically
+    2. node version - we want to use specific version of node and NOT the one heroku tells us to use. So we need to tell heroku which version we are using
+    3. npm start - instruct heroku what command to run to start server running
+    4. create .gitignore file - we do not want to include dependencies, heroku takes care of that
+
+2. Subsequent deploys
+  1.  commit codebase with git
+  2.  deploy app with git
