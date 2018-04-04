@@ -11,7 +11,7 @@ here, i am creating a route to handle a specific request.
 the below route-handler says, if the request is to "get" a webpage 'localhost:5000/', then respond back to the requester with a hi message.
 */
 app.get('/', (req, res) => {
-	res.send({ hi: 'there' });
+	res.send({ bye: 'friend' });
 });
 /*
 Express has different types of methods to respond to information:

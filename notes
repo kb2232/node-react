@@ -30,3 +30,6 @@ HEROKU DEPLOYEMENT
 2. Subsequent deploys
   1.  commit codebase with git
   2.  deploy app with git
+
+3. incase you want to delete app in heroku
+  1. heroku apps:destroy appname
